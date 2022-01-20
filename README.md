@@ -4,6 +4,16 @@
 > This is my final project of CS50 Introduction To Computer Science. It is a flutter based Mobile Application Project where users can enter their weight and height to calculate thier Body Mass Index. 
 #### Video demo: <a href="https://youtu.be/PtID5gwT0gg">Video Demo</a>
 
+## Why do we need this app?
+BMI is a useful measure of overweight and obesity. It is calculated from your height and weight. BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat. The higher your BMI, the higher your risk for certain diseases such as heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, and certain cancers.
+
+Although BMI can be used for most men and women, it does have some limits:
+
+> It may overestimate body fat in athletes and others who have a muscular build.
+> It may underestimate body fat in older persons and others who have lost muscle.
+
+Use this BMI Calculator Mobile App to estimate your body fat.
+
 ## How it Works?
 > Screen 1:
 > User needs to select his gender, input his height, weight and age. And then after clicking on the Calulate Button. It will lead him to the second Screen with his/her BMI.
@@ -14,9 +24,6 @@
 <img src="https://user-images.githubusercontent.com/67777625/149064180-04e5e9a9-486a-4a8e-a1d2-408711a53580.jpeg" width="400" height="700">
 
 > Design of this app is inspired by <a href="https://dribbble.com/shots/4585382-Simple-BMI-Calculator">Ruben Vaalt</a>
-
-## Impelementation:
-
 
 ## Software used:
 <a href="https://flutter.dev/">Flutter</a>
