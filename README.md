@@ -1,7 +1,7 @@
 # BMI_CALCULATOR
 
 ## Welcome to the BMI CALCULATOR
-> This is my final project of CS50 Introduction To Computer Science. It is a flutter based Mobile Application Project where users can enter their weight and height to calculate thier Body Mass Index. 
+This is my final project of CS50 Introduction To Computer Science. It is a flutter based Mobile Application Project where users can enter their weight and height to calculate thier Body Mass Index. 
 #### Video demo: <a href="https://youtu.be/PtID5gwT0gg">Video Demo</a>
 
 ## Why do we need this app?
