@@ -30,18 +30,18 @@ Use this BMI Calculator Mobile App to estimate your body fat.
 
 #### Special Widgets used while building this app:
 > Slider Theme Widget
-   SliderTheme(
-      child: Slider(
-      value: height.toDouble(),
-      min: 120.0,
-      max: 220.0,
-      onChanged: (double newVal) {
-        setState(() {
-          height = newVal.round();
-          print(height);
-        });
-      }),
-      )
+      SliderTheme(
+         child: Slider(
+         value: height.toDouble(),
+         min: 120.0,
+         max: 220.0,
+         onChanged: (double newVal) {
+           setState(() {
+             height = newVal.round();
+             print(height);
+           });
+         }),
+         )
 > Gesture Detector Widget
 
       class ReusableCard extends StatelessWidget {
