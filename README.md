@@ -68,5 +68,16 @@ Use this BMI Calculator Mobile App to estimate your body fat.
       }
     }
 
+#### How to run this project?
+Note: Flutter SDK must be installed in your system
+      Your Android device must be connected with your system with developer oprions enabled
+
+     * First download this project to your local repository
+     * open your command prompt / terminal from your current folder / directory and then run the following commands 
+     
+     cd bmi_calculator
+     flutter pub get
+     flutter run
+     
 
 
