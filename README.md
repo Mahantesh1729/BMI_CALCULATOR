@@ -29,7 +29,7 @@ Use this BMI Calculator Mobile App to estimate your body fat.
 <a href="https://flutter.dev/">Flutter</a>
 
 #### Special Widgets used while building this app:
-    Slider Theme Widget
+> Slider Theme Widget
     SliderTheme(
                   child: Slider(
                   value: height.toDouble(),
@@ -43,5 +43,28 @@ Use this BMI Calculator Mobile App to estimate your body fat.
                   }),
             )
 > Gesture Detector Widget
+
+    class ReusableCard extends StatelessWidget {
+  final Color colour;
+  final Widget cardChild;
+  final Function onPress;
+  ReusableCard({@required this.colour, this.cardChild, this.onPress});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onPress,
+      child: Container(
+        child: cardChild,
+        margin: EdgeInsets.all(15.0),
+        decoration: BoxDecoration(
+          color: colour,
+          borderRadius: BorderRadius.circular(10.0),
+        ),
+      ),
+    );
+  }
+}
+
 
 
