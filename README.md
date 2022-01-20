@@ -25,7 +25,23 @@ Use this BMI Calculator Mobile App to estimate your body fat.
 
 > Design of this app is inspired by <a href="https://dribbble.com/shots/4585382-Simple-BMI-Calculator">Ruben Vaalt</a>
 
-## Software used:
+## Technology used:
 <a href="https://flutter.dev/">Flutter</a>
+
+#### Special Widgets used while building this app:
+    > Slider Theme Widget
+    >SliderTheme(
+                  child: Slider(
+                  value: height.toDouble(),
+                  min: 120.0,
+                  max: 220.0,
+                  onChanged: (double newVal) {
+                    setState(() {
+                      height = newVal.round();
+                      print(height);
+                    });
+                  }),
+            )
+    > Gesture Detector Widget
 
 
