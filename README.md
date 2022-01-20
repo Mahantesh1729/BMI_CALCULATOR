@@ -30,7 +30,7 @@ Use this BMI Calculator Mobile App to estimate your body fat.
 
 #### Special Widgets used while building this app:
 > Slider Theme Widget
-    SliderTheme(
+   > SliderTheme(
                   child: Slider(
                   value: height.toDouble(),
                   min: 120.0,
@@ -44,27 +44,27 @@ Use this BMI Calculator Mobile App to estimate your body fat.
             )
 > Gesture Detector Widget
 
-    class ReusableCard extends StatelessWidget {
-  final Color colour;
-  final Widget cardChild;
-  final Function onPress;
-  ReusableCard({@required this.colour, this.cardChild, this.onPress});
+    > class ReusableCard extends StatelessWidget {
+      final Color colour;
+      final Widget cardChild;
+      final Function onPress;
+      ReusableCard({@required this.colour, this.cardChild, this.onPress});
 
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPress,
-      child: Container(
-        child: cardChild,
-        margin: EdgeInsets.all(15.0),
-        decoration: BoxDecoration(
-          color: colour,
-          borderRadius: BorderRadius.circular(10.0),
-        ),
-      ),
-    );
-  }
-}
+      @override
+      Widget build(BuildContext context) {
+        return GestureDetector(
+          onTap: onPress,
+          child: Container(
+            child: cardChild,
+            margin: EdgeInsets.all(15.0),
+            decoration: BoxDecoration(
+              color: colour,
+              borderRadius: BorderRadius.circular(10.0),
+            ),
+          ),
+        );
+      }
+    }
 
 
 
